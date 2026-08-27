@@ -1,0 +1,72 @@
+==============================================================================
+                         LSTACK BETA SOFTWARE LICENSE
+==============================================================================
+
+Copyright (c) 2026 Marc Le Boeuf
+
+1. PERMISSION AND RESTRICTIONS
+
+Marc Le Boeuf (the "licensor") grants you, an approved LStack beta tester,
+a personal, limited, non-exclusive, non-transferable, non-sublicensable,
+revocable permission, effective August 21, 2026, to install and use the
+LStack software for beta testing on devices you own or control. You may
+make the copies technically necessary to install and run the software, and
+one reasonable backup copy. No ownership is transferred to you.
+
+You may not:
+
+  (a) redistribute the software or make it publicly available;
+  (b) sell, resell, rent, sublicense, or commercially distribute it;
+  (c) share access to the private GitHub repository or its releases;
+  (d) remove copyright, license, or attribution notices; or
+  (e) use LStack to violate the law.
+
+
+2. OWNERSHIP
+
+The original LStack software, source code, and branding remain the property
+of the licensor. This license is a permission to use LStack, not a sale.
+
+Your projects, code, files, prompts, and other content remain owned by you
+or by their existing owners. This license claims no rights over them.
+
+LStack includes and works with third-party software, tools, AI providers,
+models, libraries, fonts, and services. The licensor does not claim
+ownership of any of them. Their own licenses and terms continue to apply
+and are not limited by this license. Attribution for third-party components
+included with LStack is provided in the NOTICE file.
+
+
+3. BETA SOFTWARE AND DISCLAIMER
+
+LStack is pre-release software. It may contain errors, may not work as
+expected, and may cause data loss; keeping backups is your responsibility.
+The licensor promises no support, maintenance, fixes, updates, continued
+availability, or future compatibility. Features may change or disappear.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LSTACK IS PROVIDED "AS IS" AND "AS
+AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, AND THE LICENSOR IS NOT LIABLE
+FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, OR FOR
+LOST DATA, ARISING FROM LSTACK OR ITS USE. THIS SECTION DOES NOT LIMIT ANY
+RIGHT OR LIABILITY THAT APPLICABLE LAW DOES NOT ALLOW TO BE LIMITED.
+
+
+4. TERMINATION
+
+This permission ends when your beta access expires or is revoked, or if you
+violate this license. When it ends, stop using LStack and delete the
+distributed copies in your possession, except where applicable law permits
+you to keep them. The licensor does not remotely delete installed software
+or your local files. However, LStack requires an account sign-in; if your
+account or beta access is deactivated or removed, sign-in may fail and the
+installed software may become unavailable to you. Your projects and files
+remain on your machine.
+
+
+Your LStack account and online services are governed by the Terms of
+Service at https://lstack.ai/terms/. Data practices are described in the
+Privacy Policy at https://lstack.ai/privacy/. This license governs the
+installed LStack software. All rights not expressly granted under this
+license are reserved by the licensor.
+
+==============================================================================
