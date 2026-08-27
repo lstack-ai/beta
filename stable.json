@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0.0",
+  "channel": "stable",
+  "latest": "0.1.0",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "releasedAt": "2026-08-24T06:05:39.323Z",
+      "minUpgradableFrom": "0.0.0",
+      "schemaVersion": 16,
+      "artifacts": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "url": "0.1.0/lstack-0.1.0-darwin-arm64.tar.gz",
+          "sizeBytes": 70574470,
+          "sha256": "a0d2e325af1565d30b8ced0ccef242c5b189df48f60a7b03fb9138b2f08df239",
+          "signature": null
+        },
+        {
+          "os": "linux",
+          "arch": "x64",
+          "url": "0.1.0/lstack-0.1.0-linux-x64.tar.gz",
+          "sizeBytes": 75923609,
+          "sha256": "d84a5e213185085bac9bbb661fd0938fd100c685dd00bd96a6f952cbef805174",
+          "signature": null
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "url": "0.1.0/lstack-0.1.0-linux-arm64.tar.gz",
+          "sizeBytes": 76077986,
+          "sha256": "6ac06bac806c9925ee490e63fdb561fde0c62867d1c4c67a373e98b69069147c",
+          "signature": null
+        }
+      ]
+    }
+  ]
+}
