@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1
+
+- Improved Docker detection and worker setup across supported platforms.
+- Added the ability to build the worker image during initial setup, before signing in.
+- Updated installation and CLI updates to use the repository's `stable.json` release selection.
+- Fixed session restart and resume failures caused by invalid session identifiers.
+
 ## 0.1.0
 
 Initial LStack private beta release.
