@@ -6,7 +6,7 @@ Learn more at [lstack.ai](https://lstack.ai), or visit the [LStack documentation
 
 ## Beta access
 
-LStack beta releases are private. Before installing, make sure:
+Before installing, make sure:
 
 - You have been granted access to this repository.
 - [GitHub CLI](https://cli.github.com/) is installed.
@@ -20,7 +20,7 @@ Your GitHub account must have access to `lstack-ai/beta`.
 curl -fsSL https://lstack.ai/install.sh | bash
 ```
 
-The installer uses your authenticated GitHub session to download the correct release for your platform and verifies its SHA-256 checksum before installation.
+The installer uses your authenticated GitHub session to select the current stable version, download the correct artifact for your platform, and verify its SHA-256 checksum before installation.
 
 Supported beta platforms:
 
@@ -28,21 +28,32 @@ Supported beta platforms:
 - Linux x86-64
 - Linux ARM64
 
+## Updating LStack
+
+Update to the current stable version:
+
+```sh
+lstack update
+```
+
+To install a specific available version instead:
+
+```sh
+lstack update --version 0.1.1
+```
+
 ## How releases work
 
-LStack uses two types of releases:
+Each `vX.Y.Z` release contains the installable artifacts and checksums for that version.
 
-- `vX.Y.Z` releases contain the installable artifacts and checksums for a specific version.
-- The `stable` release identifies the current recommended beta version.
+The repository’s [`stable.json`](stable.json) file identifies the current recommended beta version. The installer and `lstack update` read this file and then download the matching artifact from the corresponding versioned release.
 
-The installer reads the stable release information, selects the correct artifact for your platform, downloads it from the corresponding versioned release, and verifies it before installation.
+GitHub may also display automatically generated “Source code” archives. These are repository snapshots, not LStack installers. Use the installation command above instead.
 
-GitHub may also display automatically generated “Source code” archives. These are repository snapshots and are not LStack installers. Use the installation command above instead.
-
-Beta releases may change as the product develops. Release notes will describe important changes, compatibility considerations, and any actions required when upgrading.
+See [`CHANGELOG.md`](CHANGELOG.md) for a short summary of changes in each version.
 
 ## Getting started
 
 After installation, follow the [LStack documentation](https://docs.lstack.ai) to complete setup and start using LStack.
 
-If installation fails, confirm that GitHub CLI is authenticated with the account that was granted beta access.
+If installation or updating fails, confirm that GitHub CLI is authenticated with the account that was granted beta access.
