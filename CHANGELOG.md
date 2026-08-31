@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.2
+
+- Added password reset directly from the sign-in page.
+- Improved Linux onboarding with clearer worker-confinement guidance and readiness checks.
+- Added persistent PATH setup instructions after installation.
+- Improved installer errors when stable release information cannot be read.
+- Cleaned up readiness messaging during initial setup.
+
 ## 0.1.1
 
 - Improved Docker detection and worker setup across supported platforms.
