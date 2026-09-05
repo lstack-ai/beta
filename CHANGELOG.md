@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3
+
+- Fixed release downloads for both `lstack update` and version-specific updates.
+- Fixed rejected tickets being merged or marked complete by an earlier approval.
+- Fixed verification checks being lost when workers create or update verification tickets.
+- Added safe worker and unused worker-image cleanup during uninstall, while keeping project runtimes running.
+
 ## 0.1.2
 
 - Added password reset directly from the sign-in page.
