@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.4
+
+- Added an option to create a default worker when adding a provider.
+- Added a way to review and apply proposed corrections to verification checks.
+- Fixed conflicting worker assignments and improved resume, restart, and stop handling.
+- Strengthened security for project document reading and search, with clearer messages for blocked documents.
+
 ## 0.1.3
 
 - Fixed release downloads for both `lstack update` and version-specific updates.
