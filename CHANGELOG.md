@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.0
+
+- Expanded LAN access to the full signed-in dashboard, while keeping initial setup and owner recovery local to the host.
+- Fixed LAN address and port changes rolling back, and improved confirmation that LAN access is disabled.
+- Improved worker recreation to prevent container conflicts, protect unrelated containers, and report failures more clearly.
+- Prevented concurrent worker-image build requests from starting duplicate builds, while honoring explicit rebuild requests.
+- Fixed runtime service Open links when using LStack over LAN, with warnings for runtimes bound to localhost.
+
 ## 0.1.4
 
 - Added an option to create a default worker when adding a provider.
