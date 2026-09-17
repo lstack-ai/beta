@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.2
+
+- Fixed workers losing access to LStack tools between tickets, which could prevent builders from submitting work and reviewers from recording decisions.
+- Stopped runs from continuing when required LStack tools fail to initialize, with clearer failure and recovery messages.
+- Enabled Reset ticket attempt for exhausted recovery pauses while preserving protections for unsaved work.
+- Existing workers require the updated worker image before accepting new assignments; build the image and recreate workers from the dashboard after upgrading.
+- Simplified comments in the public installer without changing installation behavior.
+
 ## 0.2.1
 
 - Removed GitHub CLI and GitHub sign-in requirements from installation and updates, and simplified installation guidance.
