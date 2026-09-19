@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.3
+
+- Reduced delays when starting tickets after assigning workers to projects.
+- Simplified worker settings and improved status updates.
+- Fixed Hold and Stop confirmations, with clearer feedback and more reliable ticket updates.
+- Fixed View board leaving the investigation dialog open.
+- Updated website guidance for sign-in, public downloads, and LAN access.
+
 ## 0.2.2
 
 - Fixed workers losing access to LStack tools between tickets, which could prevent builders from submitting work and reviewers from recording decisions.
