@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.4
+
+- Improved reliability when tickets retry or resume work.
+- Reduced premature automatic stops during ticket work.
+- Added Resume automatic recovery under Runs → Recovery actions, so paused recovery can continue without discarding existing work.
+- Made ticket views clearer about whether work is running, blocked, paused, or not queued, and when attention is needed.
+- Corrected run history to distinguish automatic stops from user-requested stops.
+- Before upgrading, let current work finish. After upgrading, build the updated worker image and recreate idle workers in Settings → Workers before starting new work.
+
 ## 0.2.3
 
 - Reduced delays when starting tickets after assigning workers to projects.
