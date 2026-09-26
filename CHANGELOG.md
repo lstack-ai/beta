@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.5 — 2026-09-25
+
+- Added a dashboard notice when workers need updating, with a link to the existing update controls.
+- Kept service logs available after failed startup and improved troubleshooting details for multi-service apps.
+- Added command-result capture for Docker Compose projects.
+- Improved review messages, recovery summaries, and next-step guidance.
+- Improved automated reviews with reviewer-led decisions and complete acceptance-criteria assessments.
+- Added automatic follow-up when a review ends without a complete decision, with improved recovery from interrupted sessions.
+- Before upgrading, let current work finish. After upgrading, build the updated worker image and recreate idle workers in Settings → Workers before starting new work.
+
 ## 0.2.4
 
 - Improved reliability when tickets retry or resume work.
