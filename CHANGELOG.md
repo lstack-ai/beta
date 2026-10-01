@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.6 — 2026-09-29
+
+- Added Test model connection on a worker's Overview to check connectivity for supported providers without creating a project or starting an AI agent session.
+- Improved handling of localhost addresses for Docker workers, with clearer guidance when a local model server cannot be reached.
+- Updated reviewer guidance to use checks available to each project, including Docker Compose apps, while keeping acceptance decisions with the reviewer.
+- Fixed review sessions continuing after a decision, so workers can move on to the next ticket once the session has stopped.
+
 ## 0.2.5 — 2026-09-25
 
 - Added a dashboard notice when workers need updating, with a link to the existing update controls.
