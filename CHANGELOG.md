@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.0 — 2026-10-03
+
+- Added account creation with email verification and a guided path to setting up your installation.
+- Improved password handling on sign-in and sign-up forms.
+- Improved compatibility between workers and local model servers such as vLLM, while preserving explicitly configured reasoning preferences.
+- Improved text, vision and tool capability checks for reasoning models, with clearer results when a check cannot determine support.
+- Applying detected capabilities now preserves existing settings when a check is inconclusive, fails or was not run.
+
+<br>
+
+---
+
+<br>
+
 ## 0.2.6 — 2026-09-29
 
 - Added Test model connection on a worker's Overview to check connectivity for supported providers without creating a project or starting an AI agent session.
