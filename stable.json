@@ -1,36 +1,36 @@
 {
   "schemaVersion": "1.0.0",
   "channel": "stable",
-  "latest": "0.2.6",
+  "latest": "0.3.0",
   "releases": [
     {
-      "version": "0.2.6",
-      "releasedAt": "2026-10-01T01:49:52.186Z",
+      "version": "0.3.0",
+      "releasedAt": "2026-10-03T21:36:53.470Z",
       "minUpgradableFrom": "0.0.0",
       "schemaVersion": 22,
       "artifacts": [
         {
           "os": "darwin",
           "arch": "arm64",
-          "url": "0.2.6/lstack-0.2.6-darwin-arm64.tar.gz",
-          "sizeBytes": 71552453,
-          "sha256": "af57858fb02979112850dade0e027a3d1865d5fb5f89b02a7cabd0885ea687db",
+          "url": "0.3.0/lstack-0.3.0-darwin-arm64.tar.gz",
+          "sizeBytes": 71585269,
+          "sha256": "cf9fe1b794c68ee46cf04407e9cc5927448051af8cc01bd405ed9c7a0dae735a",
           "signature": null
         },
         {
           "os": "linux",
           "arch": "x64",
-          "url": "0.2.6/lstack-0.2.6-linux-x64.tar.gz",
-          "sizeBytes": 76899086,
-          "sha256": "dc6aaaba63e967284b2e41aa2bce169f0650707a40676a89ff9c449d1b3d5a23",
+          "url": "0.3.0/lstack-0.3.0-linux-x64.tar.gz",
+          "sizeBytes": 76950081,
+          "sha256": "1a18c6ef038ea011147e03bc9c69121ab6a87dd825f54911882335aef583e343",
           "signature": null
         },
         {
           "os": "linux",
           "arch": "arm64",
-          "url": "0.2.6/lstack-0.2.6-linux-arm64.tar.gz",
-          "sizeBytes": 77064039,
-          "sha256": "92e57fa1e32216d280dea49a1d086bed2bcde3bf2d121abe3ec83005868943d5",
+          "url": "0.3.0/lstack-0.3.0-linux-arm64.tar.gz",
+          "sizeBytes": 77116476,
+          "sha256": "be52740e94b2f6a2cbbe3c93a20714e1da04d309fa4685748d35e78a83c1d0f1",
           "signature": null
         }
       ]
