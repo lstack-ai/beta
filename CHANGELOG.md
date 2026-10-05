@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.1 — 2026-10-04
+
+- Added Continue without an account during initial setup for local use. The choice is remembered across browsers and restarts on the same computer.
+- Added a Sign In action in the sidebar when using LStack without an account, so you can sign in or create an account later.
+- Once you confirm an account as the installation's owner, sign-in is required and the option to continue without an account is no longer available. Existing account-protected installations keep their current sign-in behavior.
+- Improved the account setup flow from network settings: you return there after confirming ownership, with network access still off until you enable it. Local network (LAN) access continues to require the owner's account.
+
 ## 0.3.0 — 2026-10-03
 
 - Added account creation with email verification and a guided path to setting up your installation.
