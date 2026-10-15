@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.4.0 — 2026-10-14
+
+- Added conversational ticket planning with read-only project access.
+- Added support for planning with workers not assigned to the project.
+- Added editable ticket drafts, default draft selection, and individual or bulk creation in Backlog.
+- Enlarged the Create Ticket window and improved text-field sizing, navigation, parent-ticket selection and worker selection.
+- Increased the planning reply timeout to 30 minutes and improved progress feedback.
+- Improved recovery from interrupted planning sessions and restarts.
+- Disabled unnecessary Anthropic background requests by default when using other model providers.
+- Fixed Claude worker startup failures affecting planning, execution and readiness checks, and corrected misleading credential error messages.
+
+<br>
+
+---
+
+<br>
+
 ## 0.3.1 — 2026-10-04
 
 - Added Continue without an account during initial setup for local use. The choice is remembered across browsers and restarts on the same computer.
