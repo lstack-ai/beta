@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.1 — 2026-10-18
+
+- Added guided setup for model providers and workers.
+- Added connection, capability and Claude subscription checks during setup.
+- Improved connection errors and worker startup status messages.
+- Reduced false stops during slow model responses, retries and ongoing work.
+- Removed default time limits for new workers while preserving saved limits.
+- Improved loop detection and cancellation recovery.
+- Fixed repeated rebuilds and false health failures for slow-starting project apps.
+- Fixed outdated health status being reused after app restarts.
+
 ## 0.4.0 — 2026-10-14
 
 - Added conversational ticket planning with read-only project access.
