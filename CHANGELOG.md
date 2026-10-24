@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.4.3 — 2026-10-23
+
+- Redesigned the Overview page to show what needs your attention, what is running or waiting for review, and recent results across your projects, with links to where you can act.
+- Improved status wording and mobile layout on the Overview page. Disabled workers are no longer counted as needing attention.
+- Update workers now builds the updated worker image and updates idle workers in one step. Busy workers are not interrupted.
+- Fixed a case where merging a reviewed ticket could undo changes from another ticket that had already been completed.
+- Code changes that edit a project's runtime configuration are now validated during review, and the runtime is updated after they merge.
+- Corrected runtime build-and-validate ticket descriptions that described the project as ready before its setup was complete.
+- Fixed runtime template help tickets being rejected repeatedly on Git-isolated projects.
+- The runtime is now configured automatically when a runtime template help ticket merges.
+- Recovery messages now name the limit that was actually reached.
+- Fixed tickets completed by a recovery ticket staying active. Their work is now archived, and the Git panel shows what was saved.
+- Start new attempt is no longer offered on Done tickets.
+- Fixed new attempts failing with a generic error when all previous attempts had finished.
+
 ## 0.4.1 — 2026-10-18
 
 - Added guided setup for model providers and workers.
