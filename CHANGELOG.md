@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.4 — 2026-10-30
+
+- Added a Usage page to each project showing execution time, worker time and reported tokens by worker and model, including attempts that are still running or did not report usage.
+- Redesigned the project Execution page with a lineup of builders and reviewers, clearer worker cards and status, and a layout that uses the full window width.
+- Simplified Settings into fewer pages: Health now brings together app, data, secrets key and worker checks, with technical details available when needed.
+- Runtime templates now appear in Settings → Runtime, and Workspace is now called Project locations.
+- Removed the long tools list from the MCP settings page.
+- Holding a running ticket now stops its current work, and the ticket stays parked until you release the hold.
+- Releasing a hold continues the ticket from its current build or review stage. It prefers the same worker and its saved session, and moves to another eligible worker if that worker was removed or stopped responding.
+- Fixed a case where a ticket could be started twice at the same time, replacing the attempt already in progress.
+
 ## 0.4.3 — 2026-10-23
 
 - Redesigned the Overview page to show what needs your attention, what is running or waiting for review, and recent results across your projects, with links to where you can act.
