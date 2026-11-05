@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.5 — 2026-11-04
+
+- Redesigned the main navigation with resizable, collapsible sidebars, pinned projects and project search.
+- Redesigned project creation as two steps, with zero, one or several existing workers selectable during creation.
+- Refreshed the Overview page to use the full window width, and moved platform health details there.
+- Redesigned the ticket view with Overview, Activity and Results sections, a persistent comments panel, formatted descriptions, free-text effort estimates and a warning before unsaved edits are discarded.
+- Fixed ticket saves appearing to succeed when rejected or overwriting newer changes, and a case where a Git-isolated ticket could be marked Done although its change was never merged.
+
 ## 0.4.4 — 2026-10-30
 
 - Added a Usage page to each project showing execution time, worker time and reported tokens by worker and model, including attempts that are still running or did not report usage.
