@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.6 — 2026-11-11
+
+- Redesigned the Queue with Overview, Roadmap, project lane and list views, filters, a Needs you section and an explanation of how the queue works, with layouts for smaller screens.
+- Redesigned the project Git page to show where LStack works, what is in progress, what merged and what needs attention. You can now pick an existing local branch or create a new one for LStack's work, and your running app only moves to the new changes when you choose Update app.
+- Redesigned the project Runtime page with Overview, Activity and Settings tabs and a page for each service. Services in a multi-service app can now be started, restarted and given their own local ports, variables and secrets.
+- Improved runtime reliability: one-time tasks no longer rerun on restart and their output is kept, crashing services stop restarting after repeated crashes, and an unreadable secrets key can be restored or replaced from the page. Previews can be started from a ticket, a merged ticket or a date, and unpinned previews are removed after 24 hours.
+- Stop now ends the current attempt and returns the ticket to Backlog, keeping its files, attempts and history. Hold still pauses work at its current stage until released.
+- Fixed approved merges delayed by a temporary Git error not being retried, Git commands you run yourself in a project being refused, and Reset leaving containers or images behind. Workers can also no longer get around the protection on branches they don't own.
+
 ## 0.4.5 — 2026-11-04
 
 - Redesigned the main navigation with resizable, collapsible sidebars, pinned projects and project search.
