@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.7 — 2026-11-16
+
+- Updating an app no longer erases data it saved. Runtime → Settings → Stored data shows what is kept and lets you download a copy or start fresh.
+- A failed update or rebuild now keeps the previous working version running, and LStack no longer redeploys the same failed version.
+- Workers now ask you when a ticket is contradictory or impossible instead of guessing, and Start new attempt reliably starts a fresh build and review.
+- Runtime setup checks that a template fits your project before applying it. Static Site now publishes all root pages and assets; reset and reapply it to update an existing site.
+- Fixed `--version` after a command running that command, and several issues that could stop an app, block Update app or show the wrong runtime or Results status.
+
 ## 0.4.6 — 2026-11-11
 
 - Redesigned the Queue with Overview, Roadmap, project lane and list views, filters, a Needs you section and an explanation of how the queue works, with layouts for smaller screens.
